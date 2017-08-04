@@ -1,0 +1,6 @@
+crossbow {
+  display:flex;
+  /* Entering no flex-direction value is the same as 
+  setting it to: flex-direction: row;
+  */
+}
