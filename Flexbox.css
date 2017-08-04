@@ -4,3 +4,8 @@ crossbow {
   setting it to: flex-direction: row;
   */
 }
+
+crossbow {
+  display: flex;
+  flex-direction: column; /* Aiming at South */
+}
