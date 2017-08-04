@@ -9,3 +9,10 @@ crossbow {
   display: flex;
   flex-direction: column; /* Aiming at South */
 }
+
+crossbow {
+    justify-content: flex-end; /* For aiming at the end of the row */
+    justify-content: flex-start; /* For aiming at the start of the row */
+    justify-content: space-around; /* For elements that have space around one another */
+    justify-content: space-between; /* For elements that have space between one another */
+}
