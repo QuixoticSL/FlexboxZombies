@@ -19,3 +19,10 @@ crossbow {
     justify-content: space-between; /* For elements that have space between one another */
     justify-content: center; 
 }
+
+/* CH3 */
+
+crossbow {
+  align-content: center;
+  align-content: flex-end;
+}
