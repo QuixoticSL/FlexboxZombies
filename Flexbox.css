@@ -23,6 +23,15 @@ crossbow {
 /* CH3 */
 
 crossbow {
-  align-content: center;
-  align-content: flex-end;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-start; 
+}
+
+crossbow {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-start; /* Aiming at the items on the far left */
+  align-items: flex-end; /* Aiming at the items on the far right of and direction */
+  align-items: stretch; /* Streaching the items along the blue lasers */
 }
