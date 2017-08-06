@@ -35,3 +35,15 @@ crossbow {
   align-items: flex-end; /* Aiming at the items on the far right of and direction */
   align-items: stretch; /* Streaching the items along the blue lasers */
 }
+
+/* CH4 */
+
+crossbow {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.target:nth-of-type(2){
+  align-self: flex-start; /* Targeting just one item which is closer to the upper or far right laser */
+}
