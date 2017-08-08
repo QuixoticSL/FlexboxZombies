@@ -47,3 +47,26 @@ crossbow {
 .target:nth-of-type(2){
   align-self: flex-start; /* Targeting just one item which is closer to the upper or far right laser */
 }
+
+/* CH5 */
+crossbow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.target.goo{
+  flex-grow: 1; /* Ratios. Setting both elements to this make them grow to fill the available space at the same rate. */
+}
+
+.target:nth-of-type(1){
+  flex-grow: 1; /* Growing at a ratio of 1 */  
+}
+
+.target:nth-of-type(2){
+  flex-grow: 2; /* Growing at a ratio of 2 which is faster than the first element */
+}
+
+.target:nth-of-type(2){
+  flex-grow: 0; /* Not growin at all or overriding the default value */
+}
