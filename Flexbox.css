@@ -70,3 +70,5 @@ crossbow {
 .target:nth-of-type(2){
   flex-grow: 0; /* Not growin at all or overriding the default value */
 }
+
+/* CH6 */
