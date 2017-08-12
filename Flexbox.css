@@ -87,3 +87,16 @@ crossbow{
   flex-grow: 1;
   flex-shrink: 0;
 }
+
+/* CH7 */
+crossbow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.target.goo{
+  flex-basis: 400px;
+  min-width: 100px; /*Down limit*/
+  max-width: 100px; /*Upper limit*/
+}
