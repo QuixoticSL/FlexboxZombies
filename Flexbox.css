@@ -100,3 +100,14 @@ crossbow {
   min-width: 100px; /*Down limit*/
   max-width: 100px; /*Upper limit*/
 }
+
+crossbow {
+  display: flex;
+  flex-direction: column; /* Now we are not looking at the width but the height */
+  justify-content: center;
+  align-items: center;
+}
+
+.target.goo{
+  flex-basis: 300px;
+}
