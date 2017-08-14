@@ -111,3 +111,16 @@ crossbow {
 .target.goo{
   flex-basis: 300px;
 }
+
+/* CH8 */
+crossbow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.target.male{
+  order: 2;  
+}
+
+/* CH9 */
