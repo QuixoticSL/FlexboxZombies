@@ -124,3 +124,29 @@ crossbow {
 }
 
 /* CH9 */
+crossbow {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  flex-wrap: wrap; /* Wrapping to a new line because space at the old line is not available */
+  /* When elements move to a new line with wrap they treat that as a completely new set of rules ex: flex-grow */
+  /* Wrap first, shrink second */
+}
+
+
+crossbow {
+  display: flex;
+  align-items: flex-end; /* wrap-reverse also reverses align-items!!! */
+  flex-wrap: wrap-reverse; /* Reverses the direction of the wrap, making elements wrap down instead of up */
+}
+
+
+crossbow {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.target.goo{
+  flex-basis: 50%;
+}
