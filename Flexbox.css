@@ -150,3 +150,12 @@ crossbow {
 .target.goo{
   flex-basis: 50%;
 }
+
+/* CH10 */
+crossbow {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start; /* Aligning content that is wrapped */
+  /* Most of the same properties can be applied here aswell */
+}
