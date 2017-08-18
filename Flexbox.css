@@ -159,3 +159,23 @@ crossbow {
   align-content: flex-start; /* Aligning content that is wrapped */
   /* Most of the same properties can be applied here aswell */
 }
+
+/* CH11 */
+
+crossbow {
+  display: flex;
+  align-items: center;
+}
+
+.target:nth-of-type(1){
+  flex: 1 0 auto;
+  /* Shorthand for grow, shrink and basis */
+}
+
+
+crossbow {
+  display: flex;
+  align-items: center;
+  flex-flow: column wrap;
+  /* Shorthand for flex-direction and flex-wrap */
+}
